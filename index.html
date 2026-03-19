@@ -3,27 +3,140 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Musiktheorie lernen</title>
+  <title>Musiktheorie lernen - Interaktive Plattform</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">🎵 MusicTheory</div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#courses">Kurse</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
   <header class="hero">
-    <h1>Musiktheorie einfach erklärt</h1>
-    <p>Interaktive Inhalte zu Tonleitern, Akkorden und Harmonielehre</p>
-    <button id="infoButton">Mehr erfahren</button>
+    <div class="container">
+      <h1>Musiktheorie einfach erklärt</h1>
+      <p>Lerne Tonleitern, Akkorde und Harmonielehre mit interaktiven Inhalten</p>
+      <button class="cta-button" id="ctaButton">Jetzt starten</button>
+    </div>
   </header>
 
-  <main class="content">
-    <section class="card">
-      <h2>C-Dur-Tonleiter</h2>
-      <p>C – D – E – F – G – A – H – C</p>
-    </section>
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Warum uns wählen?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🎹</div>
+          <h3>Interaktiv</h3>
+          <p>Lerne durch spielen und experimentieren mit Musikinstrumenten</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📚</div>
+          <h3>Umfassend</h3>
+          <p>Von Anfänger bis Fortgeschrittene - alle Stufen abgedeckt</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⏱️</div>
+          <h3>Flexibel</h3>
+          <p>Lerne in deinem Tempo, wann und wo du möchtest</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🏆</div>
+          <h3>Erfolgreich</h3>
+          <p>Tausende Schüler haben bereits ihre Ziele erreicht</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="card">
-      <h2>Stufenharmonik</h2>
-      <p>I – ii – iii – IV – V – vi – vii°</p>
-    </section>
-  </main>
+  <!-- Course Preview Section -->
+  <section id="courses" class="courses">
+    <div class="container">
+      <h2>Populäre Kurse</h2>
+      <div class="courses-grid">
+        <div class="course-card">
+          <h3>Tonleitern Basics</h3>
+          <p>Verstehe die Grundlagen von Tonleitern</p>
+          <ul class="course-list">
+            <li>C-Dur Tonleiter</li>
+            <li>Natürliche Moll</li>
+            <li>Harmonische Moll</li>
+          </ul>
+          <button class="course-button">Mehr erfahren</button>
+        </div>
+        <div class="course-card">
+          <h3>Akkordlehre</h3>
+          <p>Lerne wie Akkorde aufgebaut sind</p>
+          <ul class="course-list">
+            <li>Dur-Akkorde</li>
+            <li>Moll-Akkorde</li>
+            <li>Sieben-Akkorde</li>
+          </ul>
+          <button class="course-button">Mehr erfahren</button>
+        </div>
+        <div class="course-card">
+          <h3>Harmonielehre</h3>
+          <p>Die Wissenschaft der Harmonie</p>
+          <ul class="course-list">
+            <li>Stufenharmonik</li>
+            <li>Modulation</li>
+            <li>Funktionsharmonik</li>
+          </ul>
+          <button class="course-button">Mehr erfahren</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="container">
+      <h2>Was sagen unsere Nutzer?</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p>"Endlich verstehe ich Musiktheorie! Die interaktiven Lektionen sind fantastisch."</p>
+          <h4>Marie K.</h4>
+        </div>
+        <div class="testimonial-card">
+          <p>"Das beste, was mir beim Lernen von Musik passiert ist. Empfehle ich jedem!"</p>
+          <h4>Thomas B.</h4>
+        </div>
+        <div class="testimonial-card">
+          <p>"Einfach erklärt und super motivierend. Ich spiele schon viel besser!"</p>
+          <h4>Sarah M.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Bereit zum Starten?</h2>
+      <p>Trete der Musiktheorie-Community bei und entfessle dein musikalisches Potenzial</p>
+      <button class="cta-button-large" id="ctaButton2">Kostenlos registrieren</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 MusicTheory. Alle Rechte vorbehalten.</p>
+      <ul class="footer-links">
+        <li><a href="#">Datenschutz</a></li>
+        <li><a href="#">AGB</a></li>
+        <li><a href="#">Impressum</a></li>
+      </ul>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
